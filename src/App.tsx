@@ -83,7 +83,7 @@ export default function App() {
   const searchParams = new URLSearchParams(window.location.search);
   const showHidden = searchParams.has('show_all') || searchParams.get('mode') === 'full';
 
-  const { events, laneGroups, maxLanes, timelineWidth, years, earliestYear } = useMemo(() => {
+  const { events, laneGroups, maxLanes, timelineWidth, years, earliestYear, dynamicStartDate } = useMemo(() => {
     if (!rawEvents.length) return { events: [], laneGroups: [], maxLanes: 0, timelineWidth: 1000, years: [], earliestYear: '2020' };
 
     const baseEvents = rawEvents
@@ -261,7 +261,7 @@ export default function App() {
     if (grouping === 'none') {
       processEntityGroup('Roles & Groups', roleEvents);
     } else {
-      let distinctKeys = Array.from(new Set(roleEvents.map(e => e[grouping] as string)));
+      const distinctKeys = Array.from(new Set(roleEvents.map(e => e[grouping] as string)));
       
       if (grouping === 'organisation') {
          const order = ['tf', 'ayy', 'teekkarius', 'stf', 'hankkijat'];
@@ -307,8 +307,11 @@ export default function App() {
       timelineWidth: finalTimelineWidth,
       years: yList,
       earliestYear,
+      dynamicStartDate,
     };
   }, [rawEvents, grouping, pixelsPerDay, laneHeight]);
+
+  const todayLeft = differenceInDays(new Date(), dynamicStartDate) * pixelsPerDay;
 
   const closeExpanded = (e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
@@ -503,6 +506,20 @@ export default function App() {
                <span className="absolute -top-6 -left-4 font-bold text-slate-400/80 text-xs bg-slate-50 px-1 rounded">{yItem.year}</span>
              </div>
           ))}
+
+          {/* Today Marker (subtle) */}
+          {typeof dynamicStartDate !== 'undefined' && (
+            (() => {
+              const visible = todayLeft >= 0 && todayLeft <= timelineWidth - 40;
+              if (!visible) return null;
+              return (
+                <>
+                  <div className="absolute top-0 bottom-0 w-px bg-red-300/60 z-30 pointer-events-none" style={{ left: todayLeft }} />
+                  <span className="absolute -top-6 text-xs font-bold text-red-500 z-30 transform -translate-x-1/2" style={{ left: todayLeft }}>Today</span>
+                </>
+              );
+            })()
+          )}
 
           {/* Horizontal Zebra Striping for Lanes (Subtle) */}
           <div className="absolute inset-0 pointer-events-none z-0">
