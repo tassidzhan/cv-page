@@ -2,6 +2,7 @@ import { useEffect, useState, useMemo, useRef } from 'react';
 import Papa from 'papaparse';
 import { differenceInDays, parseISO, isValid, max, format, getYear } from 'date-fns';
 import { Award, Briefcase, Users, X, Settings2, Plus, Trash2 } from 'lucide-react';
+import { ORGANIZATION_COLORS, DEFAULT_ORGANIZATION_COLOR, NEW_ORGANIZATION_DEFAULT_COLOR } from './constants/organizationColors';
 
 interface EventRecord {
   name: string;
@@ -47,18 +48,11 @@ export default function App() {
   const [showSettings, setShowSettings] = useState(false);
   const [pixelsPerDay, setPixelsPerDay] = useState(1.2);
   const [laneHeight, setLaneHeight] = useState(44);
-  const [colors, setColors] = useState<Record<string, string>>({
-    tf: '#b20738',
-    ayy: '#6f0075',
-    hankkijat: '#f28f05',
-    stf: '#00047e',
-    teekkarius: '#a4242a',
-    polytekarna: '#000000',
-  });
+  const [colors, setColors] = useState<Record<string, string>>(ORGANIZATION_COLORS);
   
   // New org color state form
   const [newOrgName, setNewOrgName] = useState('');
-  const [newOrgColor, setNewOrgColor] = useState('#10b981');
+  const [newOrgColor, setNewOrgColor] = useState(NEW_ORGANIZATION_DEFAULT_COLOR);
 
   useEffect(() => {
     const fetchCSV = async () => {
@@ -467,7 +461,7 @@ export default function App() {
 
           {/* Events */}
           {events.map((ev) => {
-            const orgColor = colors[ev.organisation] || '#64748b';
+            const orgColor = colors[ev.organisation] || DEFAULT_ORGANIZATION_COLOR;
             const isDecoration = ev.type === 'decoration';
             const isFunctionary = ev.type === 'functionary';
             const isExpanded = expandedId === ev.id;
