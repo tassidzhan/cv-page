@@ -20,6 +20,19 @@ interface SubEvent {
   description: string;
 }
 
+interface MergedEvent {
+  id: number;
+  name: string;
+  organisation: string;
+  type: string;
+  startDate: Date;
+  endDate: Date;
+  tags?: string;
+  tagList: string[];
+  tagGroup: string;
+  subEvents: SubEvent[];
+}
+
 interface ParsedEvent extends Omit<EventRecord, 'start_date' | 'end_date' | 'description'> {
   id: number;
   startDate: Date;
@@ -84,7 +97,7 @@ export default function App() {
   const showHidden = searchParams.has('show_all') || searchParams.get('mode') === 'full';
 
   const { events, laneGroups, maxLanes, timelineWidth, years, earliestYear, dynamicStartDate } = useMemo(() => {
-    if (!rawEvents.length) return { events: [], laneGroups: [], maxLanes: 0, timelineWidth: 1000, years: [], earliestYear: '2020' };
+    if (!rawEvents.length) return { events: [], laneGroups: [], maxLanes: 0, timelineWidth: 1000, years: [], earliestYear: '2020', dynamicStartDate: new Date() };
 
     const baseEvents = rawEvents
       .filter(item => {
@@ -111,7 +124,7 @@ export default function App() {
     earliestStartDate.setMonth(earliestStartDate.getMonth() - 1);
     const dynamicStartDate = earliestStartDate;
 
-    const mergedEvents: any[] = [];
+    const mergedEvents: MergedEvent[] = [];
     for (const ev of baseEvents) {
       const groupIdx = mergedEvents.findIndex(g => 
         g.name === ev.name && 
@@ -192,8 +205,8 @@ export default function App() {
       return a.startDate.getTime() - b.startDate.getTime();
     });
 
-    const processEntityGroup = (label: string, eventsSubset: any[]) => {
-      const tagBuckets = new Map<string, any[]>();
+    const processEntityGroup = (label: string, eventsSubset: MergedEvent[]) => {
+      const tagBuckets = new Map<string, MergedEvent[]>();
       for (const ev of eventsSubset) {
         const groupKey = ev.tagGroup || 'ungrouped';
         if (!tagBuckets.has(groupKey)) tagBuckets.set(groupKey, []);
