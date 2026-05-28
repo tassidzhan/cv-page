@@ -373,7 +373,7 @@ export default function App() {
       <header className="p-6 md:p-8 shrink-0 border-b bg-white relative z-20 shadow-sm flex flex-col md:flex-row md:items-end justify-between gap-4">
         <div>
           <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-slate-900 mb-2">Student Activity Timeline</h1>
-          <p className="text-slate-500 text-sm md:text-base max-w-2xl">A chronicle of achievements stretching back to {events.length ? format(events[0].startDate, "yyyy") : "2014"}. Click an event to expand details.</p>
+          <p className="text-slate-500 text-sm md:text-base max-w-2xl">A chronicle of achievements stretching back to {events.length ? format(events[0].startDate, "yyyy") : "2020"}. Click an event to expand details.</p>
         </div>
         <div className="flex items-center gap-3">
           <div className="flex items-center bg-slate-100 p-1 rounded-lg border border-slate-200">

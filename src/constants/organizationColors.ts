@@ -4,12 +4,14 @@
  */
 
 export const ORGANIZATION_COLORS: Record<string, string> = {
-  tf: '#b20738',
+  inkubio: '#34855B',
   ayy: '#6f0075',
-  hankkijat: '#f28f05',
-  stf: '#00047e',
+  ho: '#D1262F',
+  tspeksi: '#00047e',
+  fspeksi: '#FFFF00',
+  mafia: '#000000',
+  iw: '#808080',
   teekkarius: '#a4242a',
-  polytekarna: '#000000',
 };
 
 /**
