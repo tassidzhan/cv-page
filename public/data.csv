@@ -1,79 +1,79 @@
-name,organisation,type,start_date,end_date,description
-ISO,Inkubio,functionary,1.8.2015,1.5.2016,
-Pelimies,Inkubio,functionary,1.1.2016,31.12.2016,
-UlkoexQtoimihenkilö,Inkubio,functionary,1.1.2016,31.12.2016,Killan exkursio Müncheniin syksyllä 2016
-Yrityssuhdetoimihenkilö,Inkubio,functionary,1.1.2016,31.12.2016,
-Herkkupakara,Inkubio,functionary,1.1.2016,31.12.2016,Kiltahuoneen välipalapalvelun hoitaja
-Yrityssuhdemestari,Inkubio,functionary,1.1.2017,31.12.2018,Hallituksen jäsen
-Pulputtaja,Inkubio,functionary,1.1.2017,31.12.2018,
-Apoptoosi XIV -toimihenkilö,Inkubio,functionary,1.6.2017,1.4.2018,
-JOKu-TM,Inkubio,functionary,1.1.2018,31.12.2018,Jouhevuus- ja OptimointiKulttuuritoimihenkilö: paikalla kun hallitus toivoo että Joku^tm voisi hoitaa homman
-Yrityssuhdeoraakkeli,Inkubio,functionary,1.1.2018,31.12.2018,Yrityssuhdetoimikunnan neuvonantaja
-Päätoimittaja,Inkubio,functionary,1.1.2018,31.12.2018,
-AA-kerhon VPJ,Inkubio,functionary,1.1.2018,31.12.2018,Askarruttavien Asioiden kerho
-ISO,Inkubio,functionary,1.8.2019,1.5.2020,
-Toimittaja,Inkubio,functionary,1.1.2019,31.12.2021,
-Taittaja,Inkubio,functionary,1.1.2019,31.12.2021,
-UlkoexQtoimihenkilö,Inkubio,functionary,1.1.2019,1.6.2020,Killan lähes täysin valmisteltu matka Tokioon toukokuussa 2020 ei sattuneista syistä tapahtunutkaan.
-Tapakasvattaja,Inkubio,functionary,1.3.2020,5.3.2024,Killan vuosijuhlaviikon Tapa ja tanssi -koulutuksen vakiokasvo
-VIRPI 3.0:n toimitus,Inkubio,functionary,1.1.2021,1.8.2022,Killan laulukirjan kolmas painos
-N-ISO,Inkubio,functionary,1.8.2021,1.5.2022,Koronan aikaan jokaiseen fuksiryhmään haluttiin myös Kokeneempi ISO-henkilö joka voisi perehdyttää myös korona-ajan tupsut killan perinteisiin.
-Lukkari,Inkubio,functionary,1.1.2021,31.12.2021,Ensimmäistä kertaa virallisesti killan lukkari jo parinkymmenen lukkaroidun sitsin jälkeen!
-HistoriaTMK,Inkubio,functionary,1.1.2022,7.3.2024,Inkubio 20 vuotta -historiankirjan ja -dokumentin työryhmät.
-Apoptoosi XIX -pääjuhlavastaava,Inkubio,functionary,1.5.2022,7.3.2023,
-JatkuvuusTMK,Inkubio,functionary,1.1.2023,31.12.2024,Hallituksen ja muiden isojen virkailijoiden mentoritoiminta
-Opaspätevyys,Museo,decoration,1.12.2017,,
-Museon opas,Museo,group,1.1.2018,28.2.2020,
-Yrityssuhdejaoston jäsen,AYY,functionary,1.1.2018,15.3.2018,
-Myyntikoordinaattori,AYY,functionary,16.3.2018,28.2.2020,
-Polyteekkarimuseon johtajan assistentti,AYY,functionary,1.3.2020,30.6.2021,
-Opiskelijakulttuurimuseon intendentti,AYY,functionary,30.6.2021,,
-Museojaoston puheenjohtaja,Museo,functionary,1.1.2019,31.12.2019,Museon puheenjohtaja vuonna jolloin ei ollut museota.
-Museon muutto- ja remonttityöryhmät,Museo,group,1.6.2018,28.2.2020,
-Teekkarilauluja n. 16. painos -toimituskunta,teekkarikulttuuri,functionary,1.1.2021,1.11.2022,
-Teekkarius150-historialehti Jämerän Taipaleen toimittaja,teekkarikulttuuri,functionary,1.1.2022,31.12.2022,
-Teekkaritunnustyöryhmä ja polyteekkarilippuprojekti,teekkarikulttuuri,group,1.1.2024,1.11.2025,
-Tunnusohjesääntöjenmuokkaustyöryhmä (TuMuTR),AYY,group,1.1.2026,31.12.2026,
-Teekkarius150-historiankirjan toimitussihteerin sijainen,AYY,functionary,1.1.2022,31.12.2023,
-Arkistonhoitajan sijainen,AYY,functionary,1.8.2023,18.1.2024,
-Yhdenvertaisuusvastaava,AYY,functionary,1.1.2023,31.12.2023,
-Asukastoimikunta,Teekkarikylä,group,1.1.2018,30.9.2018,
-Linnanisäntä,Teekkarikylä,functionary,1.10.2018,31.12.2021,
-Asumisen yhteistyöelin ASY,Teekkarikylä,group,1.10.2018,31.12.2021,
-Asukastoimikunta,Teekkarikylä,group,1.1.2022,31.12.2024,
-Kiltanauhatyöryhmä,Athene,functionary,1.1.2023,31.11.2024,
-Teekkarikokousedustaja,Athene,group,1.1.2023,31.12.2023,
-Lukkari,Athene,functionary,1.1.2023,31.12.2025,
-Halloped (SCI-kandineuvosto),Athene,group,1.1.2023,31.12.2023,
-TePsy-neuvos,Athene,functionary,1.1.2023,31.12.2023,
-Taittaja,ESO,functionary,1.1.2024,31.12.2024,
-Kirjaston- ja arkistonhoitaja,ESO,functionary,1.1.2024,31.12.2024,
-ESKO: laulunharhoittaja ja yleinen varadokaani,ESO,group,1.1.2024,31.12.2024,Osakunnan sitsikerhon jokseenkin nimellisiä virkoja
-Tavallinen Mies,ESO,group,1.1.2024,31.12.2026,
-TMK: Kihomestari,ESO,functionary,1.1.2024,31.12.2024,Osakunnan Tavallisten Miesten Kerhon johtokuntapesti
-EsPoOn AMK (CT-PJ),ESO,group,1.7.2024,31.12.2024,Osakunnan teekkarikerhon civisteekkari sekä perustajajäsen
-EsPoOn AMK ((A)CT-TJDI-PJ),ESO,functionary,1.1.2025,31.12.2026,Osakunnan teekkarikerhon tirehtöörijoukkion digitalisaatiointoilija
-Kulttuurivastaava,ESO,functionary,1.1.2025,31.12.2025,Hallituksen jäsen: kulttuuritoiminta
-Nyymaalainen Delekunta - Uusländska Valtuusgation,ESO,group,31.1.2025,31.3.2027,ESOn ja Nylands Nationin yhteistoimielimen valtuutettu edustaja
-Sihteeri,ESO,functionary,1.1.2026,31.12.2026,Osakunnan sihteeri
-Hupitoimari,GAYY,functionary,1.1.2020,31.12.2020,
-Mafioso,Merkkimafia,group,1.2.2017,18.8.2022,Mafian aktiivijäsen aikana ennen yhdistykseksi rekisteröitymistä
-Sanoittaja (T-speksi ja F-speksi),Speksi,functionary,1.9.2018,1.4.2019,
-Hupitoimari,GAYY,functionary,1.1.2018,31.12.2018,
-VPJ & VarVas,Akateeminen Sitsiseura,functionary,1.1.2020,31.12.2022,Hallituksen varapuheenjohtaja ja VarastoVastaava
-Studax,Academia Studentica,group,1.3.2022,30.6.2023,
-Licensus: Finnish student overalls,Academia Studentica,group,1.7.2023,30.4.2025,
-Decanus Fennica,Academia Studentica,group,1.5.2025,,
-Halloped (Design Factory Strategic Management Team),AYY,group,1.1.2023,31.12.2025,
-Merkkimafian puheenjohtaja,Merkkimafia,functionary,19.8.2022,1.8.2024,Yhdistyksen perustamisesta Sukukokoukseen II asti
-Hopeinen ansiomerkki,Inkubio,decoration,1.3.2018,,
-Yhteisömerkki,AYY,decoration,1.12.2020,,
-Kultainen ansiomerkki,Inkubio,decoration,1.3.2022,,
-Ansiomerkki,AYY,decoration,15.5.2023,,
-Arwoisa,teekkarikulttuuri,decoration,1.11.2025,,
-Sanoituskilpailun voitto,teekkarikulttuuri,decoration,1.11.2017,,Kappaleella Paloviina
-Sanoituskilpailun voitto,teekkarikulttuuri,decoration,1.11.2018,,Yhdessä Viivi Kivisen kanssa kappaleella Paloviina
-Sanoituskilpailun voitto,teekkarikulttuuri,decoration,1.11.2020,,Kappaleella Lobbarin veisu
-Sanoituskilpailun voitto,teekkarikulttuuri,decoration,1.11.2021,,Yhdessä Christian Segercrantzin kanssa kappaleella Tuo henki riemun ja nuoruuden
-Sanoituskilpailun kunniamaininnat,teekkarikulttuuri,decoration,1.11.2019,,Kappaleilla Kela-män - Kai vielä yhdet saa - Ilouutinen
-Sanoituskilpailu,Athene,decoration,1.10.2023,,Kaksi kolmesta palkintosijasta (nimimerkeillä)
+﻿name,organisation,type,start_date,end_date,description
+ISO,Inkubio,functionary,2015-08-01,2016-05-01,
+Pelimies,Inkubio,functionary,2016-01-01,2016-12-31,
+UlkoexQtoimihenkilö,Inkubio,functionary,2016-01-01,2016-12-31,Killan exkursio Müncheniin syksyllä 2016
+Yrityssuhdetoimihenkilö,Inkubio,functionary,2016-01-01,2016-12-31,
+Herkkupakara,Inkubio,functionary,2016-01-01,2016-12-31,Kiltahuoneen välipalapalvelun hoitaja
+Yrityssuhdemestari,Inkubio,functionary,2017-01-01,2018-12-31,Hallituksen jäsen
+Pulputtaja,Inkubio,functionary,2017-01-01,2018-12-31,
+Apoptoosi XIV -toimihenkilö,Inkubio,functionary,2017-06-01,2018-04-01,
+JOKu-TM,Inkubio,functionary,2018-01-01,2018-12-31,Jouhevuus- ja OptimointiKulttuuritoimihenkilö: paikalla kun hallitus toivoo että Joku^tm voisi hoitaa homman
+Yrityssuhdeoraakkeli,Inkubio,functionary,2018-01-01,2018-12-31,Yrityssuhdetoimikunnan neuvonantaja
+Päätoimittaja,Inkubio,functionary,2018-01-01,2018-12-31,
+AA-kerhon VPJ,Inkubio,functionary,2018-01-01,2018-12-31,Askarruttavien Asioiden kerho
+ISO,Inkubio,functionary,2019-08-01,2020-05-01,
+Toimittaja,Inkubio,functionary,2019-01-01,2021-12-31,
+Taittaja,Inkubio,functionary,2019-01-01,2021-12-31,
+UlkoexQtoimihenkilö,Inkubio,functionary,2019-01-01,2020-06-01,Killan lähes täysin valmisteltu matka Tokioon toukokuussa 2020 ei sattuneista syistä tapahtunutkaan.
+Tapakasvattaja,Inkubio,functionary,2020-03-01,2024-03-05,Killan vuosijuhlaviikon Tapa ja tanssi -koulutuksen vakiokasvo
+VIRPI 3.0:n toimitus,Inkubio,functionary,2021-01-01,2022-08-01,Killan laulukirjan kolmas painos
+N-ISO,Inkubio,functionary,2021-08-01,2022-05-01,Koronan aikaan jokaiseen fuksiryhmään haluttiin myös Kokeneempi ISO-henkilö joka voisi perehdyttää myös korona-ajan tupsut killan perinteisiin.
+Lukkari,Inkubio,functionary,2021-01-01,2021-12-31,Ensimmäistä kertaa virallisesti killan lukkari jo parinkymmenen lukkaroidun sitsin jälkeen!
+HistoriaTMK,Inkubio,functionary,2022-01-01,2024-03-07,Inkubio 20 vuotta -historiankirjan ja -dokumentin työryhmät.
+Apoptoosi XIX -pääjuhlavastaava,Inkubio,functionary,2022-05-01,2023-03-07,
+JatkuvuusTMK,Inkubio,functionary,2023-01-01,2024-12-31,Hallituksen ja muiden isojen virkailijoiden mentoritoiminta
+Opaspätevyys,Museo,decoration,2017-12-01,,
+Museon opas,Museo,group,2018-01-01,2020-02-28,
+Yrityssuhdejaoston jäsen,AYY,functionary,2018-01-01,2018-03-15,
+Myyntikoordinaattori,AYY,functionary,2018-03-16,2020-02-28,
+Polyteekkarimuseon johtajan assistentti,AYY,functionary,2020-03-01,2021-06-30,
+Opiskelijakulttuurimuseon intendentti,AYY,functionary,2021-06-30,,
+Museojaoston puheenjohtaja,Museo,functionary,2019-01-01,2019-12-31,Museon puheenjohtaja vuonna, jolloin ei ollut museota.
+Museon muutto- ja remonttityöryhmät,Museo,group,2018-06-01,2020-02-28,
+Teekkarilauluja n. 16. painos -toimituskunta,teekkarikulttuuri,functionary,2021-01-01,2022-11-01,
+Teekkarius150-historialehti Jämerän Taipaleen toimittaja,teekkarikulttuuri,functionary,2022-01-01,2022-12-31,
+Teekkaritunnustyöryhmä ja polyteekkarilippuprojekti,teekkarikulttuuri,group,2024-01-01,2025-11-01,
+Tunnusohjesääntöjenmuokkaustyöryhmä (TuMuTR),AYY,group,2026-01-01,2026-12-31,
+Teekkarius150-historiankirjan toimitussihteerin sijainen,AYY,functionary,2022-01-01,2023-12-31,
+Arkistonhoitajan sijainen,AYY,functionary,2023-08-01,2024-01-18,
+Yhdenvertaisuusvastaava,AYY,functionary,2023-01-01,2023-12-31,
+Asukastoimikunta,Teekkarikylä,group,2018-01-01,2018-09-30,
+Linnanisäntä,Teekkarikylä,functionary,2018-10-01,2021-12-31,
+Asumisen yhteistyöelin ASY,Teekkarikylä,group,2018-10-01,2021-12-31,
+Asukastoimikunta,Teekkarikylä,group,2022-01-01,2024-12-31,
+Kiltanauhatyöryhmä,Athene,functionary,2023-01-01,31.11.2024,
+Teekkarikokousedustaja,Athene,group,2023-01-01,2023-12-31,
+Lukkari,Athene,functionary,2023-01-01,2025-12-31,
+Halloped (SCI-kandineuvosto),Athene,group,2023-01-01,2023-12-31,
+TePsy-neuvos,Athene,functionary,2023-01-01,2023-12-31,
+Taittaja,ESO,functionary,2024-01-01,2024-12-31,
+Kirjaston- ja arkistonhoitaja,ESO,functionary,2024-01-01,2024-12-31,
+ESKO: laulunharhoittaja ja yleinen varadokaani,ESO,group,2024-01-01,2024-12-31,Osakunnan sitsikerhon jokseenkin nimellisiä virkoja
+Tavallinen Mies,ESO,group,2024-01-01,2026-12-31,
+TMK: Kihomestari,ESO,functionary,2024-01-01,2024-12-31,Osakunnan Tavallisten Miesten Kerhon johtokuntapesti
+EsPoOn AMK (CT-PJ),ESO,group,2024-07-01,2024-12-31,Osakunnan teekkarikerhon civisteekkari sekä perustajajäsen
+EsPoOn AMK ((A)CT-TJDI-PJ),ESO,functionary,2025-01-01,2026-12-31,Osakunnan teekkarikerhon tirehtöörijoukkion digitalisaatiointoilija
+Kulttuurivastaava,ESO,functionary,2025-01-01,2025-12-31,Hallituksen jäsen: kulttuuritoiminta
+Nyymaalainen Delekunta - Uusländska Valtuusgation,ESO,group,2025-01-31,2027-03-31,ESOn ja Nylands Nationin yhteistoimielimen valtuutettu edustaja
+Sihteeri,ESO,functionary,2026-01-01,2026-12-31,Osakunnan sihteeri
+Hupitoimari,GAYY,functionary,2020-01-01,2020-12-31,
+Mafioso,Merkkimafia,group,2017-02-01,2022-08-18,Mafian aktiivijäsen aikana ennen yhdistykseksi rekisteröitymistä
+Sanoittaja (T-speksi ja F-speksi),Speksi,functionary,2018-09-01,2019-04-01,
+Hupitoimari,GAYY,functionary,2018-01-01,2018-12-31,
+VPJ & VarVas,Akateeminen Sitsiseura,functionary,2020-01-01,2022-12-31,Hallituksen varapuheenjohtaja ja VarastoVastaava
+Studax,Academia Studentica,group,2022-03-01,2023-06-30,
+Licensus: Finnish student overalls,Academia Studentica,group,2023-07-01,2025-04-30,
+Decanus Fennica,Academia Studentica,group,2025-05-01,,
+Halloped (Design Factory Strategic Management Team),AYY,group,2023-01-01,2025-12-31,
+Merkkimafian puheenjohtaja,Merkkimafia,functionary,2022-08-19,2024-08-01,Yhdistyksen perustamisesta Sukukokoukseen II asti
+Hopeinen ansiomerkki,Inkubio,decoration,2018-03-01,,
+Yhteisömerkki,AYY,decoration,2020-12-01,,
+Kultainen ansiomerkki,Inkubio,decoration,2022-03-01,,
+Ansiomerkki,AYY,decoration,2023-05-15,,
+Arwoisa,teekkarikulttuuri,decoration,2025-11-01,,
+Sanoituskilpailun voitto,teekkarikulttuuri,decoration,2017-11-01,,Kappaleella Paloviina
+Sanoituskilpailun voitto,teekkarikulttuuri,decoration,2018-11-01,,Yhdessä Viivi Kivisen kanssa kappaleella Paloviina
+Sanoituskilpailun voitto,teekkarikulttuuri,decoration,2020-11-01,,Kappaleella Lobbarin veisu
+Sanoituskilpailun voitto,teekkarikulttuuri,decoration,2021-11-01,,Yhdessä Christian Segercrantzin kanssa kappaleella Tuo henki riemun ja nuoruuden
+Sanoituskilpailun kunniamaininnat,teekkarikulttuuri,decoration,2019-11-01,,Kappaleilla Kela-män - Kai vielä yhdet saa - Ilouutinen
+Sanoituskilpailu,Athene,decoration,2023-10-01,,Kaksi kolmesta palkintosijasta (nimimerkeillä)
