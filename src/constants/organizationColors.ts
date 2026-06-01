@@ -14,7 +14,7 @@ export const ORGANIZATION_COLORS: Record<string, string> = {
   Athene: '#384a28',
   AcademiaStudentica: '#0313ff',
   GAYY: '#ff03af',
-  Museo: '#03ff9a',
+  Museo: '#03ff9a'
 };
 
 /**
