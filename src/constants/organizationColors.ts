@@ -4,11 +4,17 @@
  */
 
 export const ORGANIZATION_COLORS: Record<string, string> = {
-  inkubio: '#34855B',
-  ayy: '#6f0075',
-  speksi: '#808080',
-  merkkimafia: '#000000',
+  Inkubio: '#34855B',
+  AYY: '#6f0075',
+  Speksi: '#808080',
+  Merkkimafia: '#000000',
   teekkarikulttuuri: '#a4242a',
+  Teekkarikylä: '#662214',
+  ESO: '#fa6607',
+  Athene: '#384a28',
+  AcademiaStudentica: '#0313ff',
+  GAYY: '#ff03af',
+  Museo: '#03ff9a',
 };
 
 /**
